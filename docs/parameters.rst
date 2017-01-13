@@ -199,8 +199,8 @@ pa_HPCdaligner_option <str>
    sparse to save some disk space (not much though). We can also ignore all reads below a certain
    threshold by specifying a length cutoff with ``-l1000``.
 
-   The biggest difference between this parameter and the ``ovlp_HPCdaligner_option`` parameter is that the latter needs
-   to have a relaxed error rate switch ``-e`` as the alignment is being performed on uncorrected reads.
+   The biggest difference between this parameter and the ``ovlp_HPCdaligner_option`` parameter is that the former needs
+   to have a more relaxed (lower) average correlation rate ``-e`` as the alignments are being performed on uncorrected reads.
 
 .. _pa_dazcon_option:
 
